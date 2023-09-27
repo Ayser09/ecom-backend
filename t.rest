@@ -1,0 +1,23 @@
+POST http://localhost:8080/api/v1/auth/login 
+Content-Type: application/json 
+
+{
+    "email":"admin@admin.com",
+    "password":"admin"
+} 
+
+####
+POST http://localhost:8080/api/v1/category/create-category
+Content-Type: application/json 
+
+{
+    "name":"Category",
+} 
+####
+GET http://localhost:8080/api/v1/category/get-category
+
+####
+GET http://localhost:8080/api/v1/category/single-category/name1
+####
+GET http://localhost:8080/api/v1/product/get-product
+
